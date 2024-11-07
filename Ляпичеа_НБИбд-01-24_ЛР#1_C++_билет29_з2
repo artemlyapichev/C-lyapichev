@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double R1, R2, area;
+
+    cout << "Введите внутренний радиус R1: ";
+    cin >> R1;
+    cout << "Введите внешний радиус R2: ";
+    cin >> R2;
+
+    area = M_PI * (R2 * R2 - R1 * R1);
+    cout << "Площадь кольца: " << area << endl;
+
+    return 0;
+}
